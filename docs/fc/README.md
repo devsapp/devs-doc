@@ -14,7 +14,7 @@
 
 # 五大亮点
 
-- **全生命周期管理**：组件拥有项目的创建、开发、调试、部署、运维全生命周期管理能力；
+- **全生命周期管理**：组件拥有项目的创建、开发、调试、部署、运维全生命周期管理能力aaa；
 - **安全发布**：通过其他形式对函数进行变更，组件可以感知并安全更新；
 - **快速集成**：借助于 Serverless Devs 的集成性和被集成性，可以与常见的 [CI/CD 平台工具](https://github.com/Serverless-Devs/Serverless-Devs/blob/master/docs/zh/cicd.md) 等集成；
 - **可观测性**：拥有完善的可观测性，在客户端可以通过[指标查询 metrics](zh/command/metrics.md) 以及[日志查询 logs](zh/command/logs.md) 等命令，进行业务的数据指标、执行日志等多重维度观测；
