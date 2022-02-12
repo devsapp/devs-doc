@@ -19,7 +19,7 @@ jobs:
         id: file_changes
         with:
           change-map: |
-            docs: {"globs": ["docs/*"]}
+            docs: {"globs": ["docs/**/*"]}
       - name: Run step only when files change.
         if: steps.file_changes.outputs.any-matches == 'true'
         run: |
