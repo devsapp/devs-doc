@@ -23,6 +23,8 @@ jobs:
       - name: Run step only when files change.
         if: steps.changed-files-specific.outputs.any_changed == 'true'
         run: |
-          echo "One or more files listed above has changed."
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "$file was changed"
+          done
         
       
