@@ -31,7 +31,7 @@ jobs:
       - run: npm install
       - run: npm install -g @serverless-devs/s
       - run: s config add --AccountID ${{secrets.AccountID}} --AccessKeyID ${{secrets.AccessKeyID}} --AccessKeySecret ${{secrets.AccessKeySecret}} -a default
-      - run: s deploysss
+      - run: s deploy
 ```
 
 主要包括几个部分的内容：   
