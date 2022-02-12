@@ -8,7 +8,7 @@
 
 ## 与 Github Action 的集成
 
-在 Github Action 的 Yaml 文件中，可以增加 Serverless Devs 的相关下载、配置以及命令执行相关能力。
+在 Github Action 的 Yaml 文件中，可以增加 Serverless Devs 的相关下载、配置以及命令执行相关能力。sss
 
 例如，在仓库中可以创建该文件`.github/workflows/publish.yml`，文件内容：
 
