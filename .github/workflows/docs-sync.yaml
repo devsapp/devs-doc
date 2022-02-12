@@ -15,14 +15,14 @@ jobs:
         with:
           fetch-depth: 0 
       - name: file_changes
-        uses: AceFire6/file_changes@v0.1.0
-        id: file_changes
+        uses: tj-actions/changed-files@v14.5
+        id: changed-files-specific
         with:
-          change-map: |
-            docs: {"globs": ["docs/*"]}
+          files: |
+            docs/*
       - name: Run step only when files change.
-        if: steps.file_changes.outputs.any-matches == 'true'
+        if: steps.changed-files-specific.outputs.any_changed == 'true'
         run: |
-          echo "Changed files: ${{ steps.verify-changed-files.outputs.docs }}"
+          echo "One or more files listed above has changed."
         
       
