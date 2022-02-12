@@ -1,6 +1,6 @@
 ![图片alt](https://serverless-article-picture.oss-cn-hangzhou.aliyuncs.com/1635756716877_20211101085157044368.pngsss)
 <p align="center">
-  <a href="https://nodejs.org/en/">
+  <a href="https://nodejs.org/en///">
     <img src="https://img.shields.io/badge/node-%3E%3D%2010.8.0-brightgreen" alt="node.js version">
   </a>
   <a href="https://github.com/devsapp/fc/blob/master/LICENSE">
